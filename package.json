@@ -1,0 +1,19 @@
+{
+  "name": "extract",
+  "version": "1.0.0",
+  "description": "this is a mern stack project to extract and fetch data and display to the front end",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "devansh",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.1"
+  }
+}
